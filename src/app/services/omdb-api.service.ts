@@ -19,17 +19,17 @@ export class OmdbApiService {
     .pipe(
       tap(data => console.log('Moviedata/error' + JSON.stringify(data))
       ),
-      catchError(this.handleError)
+      //catchError(this.handleError)
     
     );
 
     
   }
-    private handleError(err:HttpErrorResponse)
-    {
-      console.log('OmdbApiService: ' + err.message);
-     return Observable.throw(err.message);
-    }
+    // private handleError(err:HttpErrorResponse)
+    // {
+    //   console.log('OmdbApiService: ' + err.message);
+    //  return Observable.throw(err.message);
+    // }
     
 }
 

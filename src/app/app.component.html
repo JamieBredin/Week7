@@ -1,10 +1,10 @@
 <div class="container">
-  <h1>Movie Finder</h1>
+  <h1>Movie Finder - Jamie Bredin / S00211357</h1>
   <form>
     <div class="form-group">
       <input type="text" name="movie-name" class="form-control" #moviename placeholder="Enter Movie name">
     </div>
-    <button (click)="getMovieDetails(moviename.value)" type="submit" class="btn btn-Primary">getMovieDetails</button>
+    <button (click)="getMovieDetails(moviename.value)" type="submit" class="btn btn-Primary">Get Movie Details</button>
   </form>
 
 <div class="row bg-light mt-4 p-4" *ngIf="movieData">
