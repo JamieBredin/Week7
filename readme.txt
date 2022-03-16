@@ -1,0 +1,1 @@
+link to the firebase : https://moviefinder-4ce35.web.app/
